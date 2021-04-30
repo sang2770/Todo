@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Todo{
+  background:url(77452.jpg) center/cover no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
+.Constain{
+  width: 500px;
+  min-height: 500px;
+  margin: auto;
+  background-color: lightsteelblue;
+  border:1px solid #ccc;
+  border-radius: 10px;
+  transform: translateY(100px);
+  box-shadow: 10px 10px 5px rgba(0, 0,0, 0.6);
+  text-align: center;
+}
+.Header{
+  width: 100%;
+  text-align: center;
+  padding: 10px 5px;
+  font-style: italic;
+  font-weight: bold;
+}
+.Box{
+  width: 90%;
+  margin: auto;
+}
+.Box_Add{
+  
+}
+.Box_Header{
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid white;
+  padding: 10px;
+  justify-content:space-between;
+
+}
+.Box_control{
+  border: none;
+  outline: none;
+  width: 85%;
+  padding: 5px;
+}
+.Box_btn{
+  padding: 5px 10px;
+  border: none;
+  outline: none;
+  background-color: white;
+  cursor: pointer;
+}
+ul#Box_content{
+  list-style: none;
+  width: 100%;
+  position: relative;
+  
+}
+#Box_content li{
+  width: 100%;
+  padding: 10px 20px;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  justify-content: space-between;
+  align-items: center;
+}
+.Icon-true{
+  color: green;
+  font-weight: bold;
+
+}
+
+.Icon-false{
+  color: red;
+  font-weight: bold;
+}
+.Box_name{
+  width: 20%;
+}
+.Complete{
+  position: absolute;
+  right: 10px;
+  top: 130%;
+}
